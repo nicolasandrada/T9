@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/estilo.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <img src="img/logo.png" alt="" srcset="">
+        <div>
+            <h1>FarmaTown</h1>
+            <p>Si pagar mas es porque aumento</p>
+        </div>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="">Tienda</a></li>
+            <li><a href="">Sucursales</a></li>
+            <li><a href="">¿Quienes somos?</a></li>
+        </ul>
+    </nav>
+    <main>
+        <form action="">
+            <div>
+                <h3>Nombre</h3>
+                <input type="text" name="nombre" id="nombre">
+            </div>
+
+            <div>
+                <h3>Direccion</h3>
+                <input type="text" name="direccion" id="direccion">
+            </div>
+
+            <div>
+                <h3>Barrio</h3>
+                <select name="barrio" id="barrio">
+                    <option value="Parque Chas">Parque Chas</option>
+                    <option value="Colegiales">Colegiales</option>
+                    <option value="Chacarita">Chacarita</option>
+                    <option value="Paternal">Paternal</option>
+                </select>
+            </div>
+
+            <div class="Tienda">
+                <h3>Tienda </h3>
+                <label for="panales">Pañales Panamá</label>
+                <select name="prod[]" id="panales"></select>
+                <label for="preservativos">Preservativos Flor</label>
+                <select name="prod[]" id="preservativos"></select>
+                <label for="jabon">Jabón Espada</label>
+                <select name="prod[]" id="jabon"></select>
+                <label for="desodorante">Desodorante Hacha</label>
+                <select name="prod[]" id="desodorante"></select>
+                <label for="crema">Cremas Debí</label>
+                <select name="prod[]" id="crema"></select>
+            </div>
+
+            <div>
+                <input type="button" value="Calcular" id="calcular">
+            </div>
+
+        </form>
+
+    </main>
+
+    <script src="js/index.js"></script>
+</body>
+</html>
